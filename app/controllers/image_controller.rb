@@ -7,7 +7,7 @@ class ImageController < ApplicationController
 		gabba = Gabba::Gabba.new("UA-42448491-1", "stevensegallery.com")
 		gabba.event("Images", "Show", "Size", "#{@width*@height}", true)
 		gabba.page_view("Show", "#{@width}/#{@height}")
-		//Gabba::Gabba.new("UA-42448491-1", "stevensegallery.com").event("Images", "Show", "Size", "#{@width*@height}", true)
+		#Gabba::Gabba.new("UA-42448491-1", "stevensegallery.com").event("Images", "Show", "Size", "#{@width*@height}", true)
 		return_image(@width,@height)
 	end
 
@@ -15,7 +15,7 @@ class ImageController < ApplicationController
 		gabba = Gabba::Gabba.new("UA-42448491-1", "stevensegallery.com")
 		gabba.event("Images", "ShowGray", "Size", "#{@width*@height}", true)
 		gabba.page_view("ShowGray", "#{@width}/#{@height}")
-		//Gabba::Gabba.new("UA-42448491-1", "stevensegallery.com").event("Images", "ShowGray", "Size", "#{@width*@height}", true)
+		#Gabba::Gabba.new("UA-42448491-1", "stevensegallery.com").event("Images", "ShowGray", "Size", "#{@width*@height}", true)
 		return_image(@width,@height,:grayscale)
 	end
 
