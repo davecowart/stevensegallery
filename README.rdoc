@@ -2,9 +2,4 @@
 
 http://www.stevensegallery.com
 
-=== To Do
-- cache directives
-- match images based on landscape/portrait
-- gallery of source images
-- ability to pick specific images
-- FIND MORE IMAGES OF STEVEN SEGAL
+*Merged into [PlaceCage](https://github.com/davecowart/placecage)
